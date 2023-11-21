@@ -18,7 +18,7 @@ function myFunction() {
     hr.send(null);
 
 }
-
+//lookupcities
 function lookupcities() {
     var hr = new XMLHttpRequest();
     var url = 'world.php?country=' + document.getElementById('country').value + '&context=cities';

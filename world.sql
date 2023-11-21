@@ -1,5 +1,6 @@
 -- MySQL dump 10.11
 --
+--
 -- to install this database, from a terminal, type:
 -- mysql -u USERNAME -p -h SERVERNAME world < world.sql
 --
@@ -19,7 +20,9 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 DROP DATABASE IF EXISTS world;
+
 CREATE DATABASE world;
+
 USE world;
 
 --

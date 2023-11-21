@@ -13,6 +13,8 @@ if($_GET['context']=='cities'){
     $stmt = $conn->query("SELECT * FROM countries a inner join cities b on a.code = b.country_code where a.name like '$country' ");
     $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
+
+
 <table>
     <tr>
         <th>Name</th>
